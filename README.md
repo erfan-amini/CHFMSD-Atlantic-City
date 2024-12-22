@@ -1,4 +1,4 @@
-# CHFMSD---Atlantic-City
+# CHFMSD - Atlantic City
 (Coastal Hybrid Flood Mitigation System Dataset for Atlantic City)
 
 This repository contains a dataset derived from a multi-objective optimization study for hybrid vegetation-seawall coastal defense systems. The dataset is specifically curated for researchers and practitioners working on cost-effective, resilient, and sustainable coastal protection strategies.
