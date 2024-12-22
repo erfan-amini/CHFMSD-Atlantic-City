@@ -93,7 +93,7 @@ This dataset is ideal for:
 
 If you use this dataset, please cite the following publication:
 
-> Amini, E., Marsooli, R., et al. (2024). "Hybrid Vegetation-Seawall Coastal Systems for Wave Hazard Reduction: Analytics for Cost-effective Design from Optimized Features." _Energy Storage Journal_.
+> Amini, E., Marsooli, R., et al. (2024). "Hybrid Vegetation-Seawall Coastal Systems for Wave Hazard Reduction: Analytics for Cost-effective Design from Optimized Features." _npj Natural Hazards_.
 
 ---
 
