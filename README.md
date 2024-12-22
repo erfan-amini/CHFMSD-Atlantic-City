@@ -84,7 +84,7 @@ This dataset is ideal for:
 | File Name            | Description                                       |
 |----------------------|---------------------------------------------------|
 | `hybrid_systems.mat` | The dataset containing all variables and metrics. |
-| `example_plots/`     | Directory containing visualization examples.      |
+| `example_plot`       | Visualization example                             |
 | `cost_function.m`    | MATLAB file containing the cost calculation function. |
 
 ---
