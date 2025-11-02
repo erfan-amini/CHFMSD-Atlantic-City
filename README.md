@@ -15,10 +15,11 @@ This dataset consists of **12,800 rows**, each representing a unique combination
 
 ### Input Variables (Design Features and Wave Conditions)
 
-| Variable       | Description                               | Unit               |
-|----------------|-------------------------------------------|--------------------|
+| Variable       | Description                              | Unit               |
+|----------------|------------------------------------------|--------------------|
 | `Hs`           | Significant wave height                  | m                  |
 | `Tp`           | Peak wave period                         | s                  |
+| `s`            | Wave steepness (extra info)              | s                  |
 | `Av`           | Vegetation area                          | m²                 |
 | `Nv`           | Vegetation density                       | stems/m²           |
 | `Hsw`          | Seawall height                           | m                  |
@@ -27,11 +28,10 @@ This dataset consists of **12,800 rows**, each representing a unique combination
 
 | Variable                | Description                                               | Unit               |
 |-------------------------|-----------------------------------------------------------|--------------------|
-| `Wave Robustness`       | System’s ability to withstand wave forces                 | %                  |
-| `Flood Serviceability`  | Effectiveness in mitigating flooding during overtopping    | %                  |
-| `Wave Runup`            | Maximum vertical height of wave uprush on the seawall     | m                  |
+| `Normalized wave Runup` | 98th-percentile wave runup/seawall height (Hsw)           | -                  |
 | `Overtopping Volume`    | Volume of water overtopping the seawall                   | m³/m               |
-| `Total Cost`            | Estimated total cost over a 25-year lifecycle             | USD                |
+| `Robustness`            | System’s ability to control the wave runup                | %                  |
+| `Flood Serviceability`  | Effectiveness in mitigating flooding during overtopping   | %                  |
 
 ---
 
@@ -41,7 +41,7 @@ The dataset is provided as a `.mat` file. Each row corresponds to a unique scena
 
 ### Example Row (Data Values)
 ```plaintext
-Hs: 1.5   Tp: 8.2   Av: 20   Nv: 200   Hsw: 1.0   Wave Robustness: 85%   Flood Serviceability: 92%   Wave Runup: 0.75   Overtopping Volume: 0.25   Total Cost: 150,000
+Hs: 4.4 m  Tp: 12.5 s  Steepness(Hs/wavelength): 120.2   Hsw: 0.45   Av: 5.2   Nv: 24.7  Normalized wave Runup: 1.0   Overtopping Volume: 125.1 m³/m  System's Robustness (runup control): 40.7%  Flood Serviceability: 85.8%  
 ```
 
 ---
