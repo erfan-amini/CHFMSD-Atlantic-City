@@ -19,7 +19,7 @@ This dataset consists of **12,800 rows**, each representing a unique combination
 |----------------|------------------------------------------|--------------------|
 | `Hs`           | Significant wave height                  | m                  |
 | `Tp`           | Peak wave period                         | s                  |
-| `s`            | Wave steepness (extra info)              | s                  |
+| `s`            | Wave steepness (extra info)              | -                  |
 | `Av`           | Vegetation area                          | m²                 |
 | `Nv`           | Vegetation density                       | stems/m²           |
 | `Hsw`          | Seawall height                           | m                  |
