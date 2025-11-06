@@ -19,7 +19,7 @@ This dataset consists of **12,800 rows**, each representing a unique combination
 |----------------|------------------------------------------|--------------------|
 | `Hs`           | Significant wave height                  | m                  |
 | `Tp`           | Peak wave period                         | s                  |
-| `s`            | Wave steepness (extra info)              | -                  |
+| `P`            | Wave power (extra info)                  | W/m                |
 | `Av`           | Vegetation area                          | m²                 |
 | `Nv`           | Vegetation density                       | stems/m²           |
 | `Hsw`          | Seawall height                           | m                  |
@@ -41,7 +41,7 @@ The dataset is provided as a `.mat` file. Each row corresponds to a unique scena
 
 ### Example Row (Data Values)
 ```plaintext
-Hs: 4.4 m  Tp: 12.5 s  Steepness(Hs/wavelength): 120.2   Hsw: 0.45   Av: 5.2   Nv: 24.7  Normalized wave Runup: 1.0   Overtopping Volume: 125.1 m³/m  System's Robustness (runup control): 40.7%  Flood Serviceability: 85.8%  
+Hs: 4.4 m  Tp: 12.5 s  Wave power(E*Cg): 120.2   Hsw: 0.45   Av: 5.2   Nv: 24.7  Normalized wave Runup: 1.0   Overtopping Volume: 125.1 m³/m  System's Robustness (runup control): 40.7%  Flood Serviceability: 85.8%  
 ```
 
 ---
@@ -93,7 +93,7 @@ This dataset is ideal for:
 
 If you use this dataset, please cite the following publication:
 
-> Amini, E., Marsooli, R., et al. (2024). "Hybrid Vegetation-Seawall Coastal Systems for Wave Hazard Reduction: Analytics for Cost-effective Design from Optimized Features." _npj Natural Hazards_.
+> Amini, E., Marsooli, R., Moazeni, S. et al. Hybrid vegetation-seawall coastal systems for wave hazard reduction: analytics for cost-effective design from optimized features. npj Nat. Hazards 2, 22 (2025). https://doi.org/10.1038/s44304-025-00070-x
 
 ---
 
